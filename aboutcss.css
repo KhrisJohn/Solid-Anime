@@ -1,0 +1,21 @@
+.about-box {
+    width: 80%;
+    margin: 20px auto; 
+    padding: 20px;
+    background: linear-gradient(to right, #006eff, #00ff95); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-box h2 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+
+  .about-box p {
+    font-size: 25px;
+    color: #000;
+    line-height: 1.5;
+    padding: 15px;
+  }

@@ -1,0 +1,30 @@
+.slider-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 auto; /* Center the slider */
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.slider-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slider-controls button {
+    margin: 0 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}

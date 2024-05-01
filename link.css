@@ -1,0 +1,28 @@
+.link-box {
+    background: linear-gradient(to right, #006eff, #00ff95); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.link-box h2 {
+    margin-top: 0;
+}
+
+.link-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-box ul li {
+    margin-bottom: 10px;
+}
+
+.link-box ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 15px;
+}
